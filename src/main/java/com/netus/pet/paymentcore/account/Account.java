@@ -17,10 +17,10 @@ public class Account {
     @Id
     @GeneratedValue
     @Column(name = "account_id", nullable = false)
-    private Long id;
+    private Integer id;
 
     @Column(name = "balance", nullable = false)
-    private double balance;
+    private BigDecimal balance;
 
     @Column(name = "currency", nullable = false)
     private Currency currency;
