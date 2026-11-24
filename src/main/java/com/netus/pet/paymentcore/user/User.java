@@ -9,7 +9,7 @@ import java.util.List;
 public class User {
     @Id
     @Column(name = "user_id", nullable = false)
-    private Int id;
+    private LONG id;
 
     @OneToMany
     private List<Account> accounts;
