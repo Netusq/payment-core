@@ -20,7 +20,7 @@ public class Account {
     private Long id;
 
     @Column(name = "balance", nullable = false)
-    private BigDecimal balance;
+    private double balance;
 
     @Column(name = "currency", nullable = false)
     private Currency currency;
